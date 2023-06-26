@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.flex-1{
+    flex-basis: 20%;
+   
+    height: 200px;
+    text-align: right;
+    padding-right: 20px;
+}
+.flex-auto{
+    max-width: 75%;
+    padding: 15px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 15px 0;
+    padding: 10px 15px;
+}
+li.active{
+    background-color: blueviolet;
+    
+}
+li.active a{
+    color: azure;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline 5px solid; 
+    text-decoration-color: blueviolet;
+}
